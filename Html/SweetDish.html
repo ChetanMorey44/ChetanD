@@ -1,0 +1,520 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Css/style.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css" integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Lora:ital,wght@0,400..700;1,400..700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet">
+  
+      <title>Online Food System</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <img class="img-fluid"   src="../assets/Images/illustration/navimages.jpg" width="130px"    alt="">
+      <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#menu"> Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#addtocard"> Add To Card</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#order"> Order</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sweetdish"> SweetDish</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--     
+    <section class="sec-four">
+      
+        <div class="container-fluid">
+          <div class="row">
+        
+        
+        
+            <center>
+              <div class="mt-lg-3 p-lg-2 " style="background-color: #C5705D;">
+                <div>
+                 <h1 class="fw-bold text-center display-2" style="color: #921A40;">Sweet Dishes</h1>
+                </div>
+             <div class="owl-carousel owl-theme mt-lg-3"> 
+               
+               <div class="item ">
+                 <img src="../assets/Images/illustration/cs.jpg" class="img-flui" alt="" height="230">
+                 <div class="d-lg-flex af rounded-1" style="gap: 40px;">
+                   <div >
+                     <h6 class="text-danger fw-bold p-lg-2 fs-4 text-center">Custured <i class="fa-solid fa-heart color-danger fs-3 mx-3"></i><i class="fa-regular fa-comment fs-3"></i></h6>
+                   </div>
+                  
+                 </div>
+               </div>
+               <div class="item ad">
+                 <img src="../assets/Images/illustration/rasgulla.jpg" class="img-flui" alt="" height="230">
+                 <div class="d-lg-flex af rounded-1" style="gap: 80px;">
+                   <div >
+                     <h6 class="text-danger fw-bold p-lg-2 fs-4">Rasgulla <i class="fa-solid fa-heart color-danger fs-3 mx-3"></i><i class="fa-regular fa-comment fs-3"></i></h6>
+                   </div>
+                   
+                 </div>
+               </div>
+               <div class="item">
+                 <img src="../assets/Images/illustration/barfi.jpg" class="img-flui" alt="" height="230">
+                 <div class="d-lg-flex af rounded-1" style="gap: 50px;">
+                   <div >
+                     <h6 class="text-danger fw-bold p-lg-2 fs-4 mx-4">Barfi <i class="fa-regular fa-heart color-danger fs-3 mx-3"></i><i class="fa-regular fa-comment fs-3"></i></h6>
+                   </div>
+                   
+                 </div>
+               </div>
+              
+               <div class="item">
+                <div class="">
+                  <img src="../assets/Images/illustration/ab.jpg" alt="" class="img-flui" height="230">
+                  <div class="d-lg-flex af rounded-1" style="gap: 60px;">
+                    <div >
+                      <h6 class="text-danger fw-bold p-lg-2 fs-4">Custured <i class="fa-solid fa-heart color-danger fs-3 mx-2"></i><i class="fa-regular fa-comment fs-3"></i></h6>
+                    </div>
+                   
+                  </div>
+                </div> 
+              </div>
+        
+              <div class="item">
+                <img src="../assets/Images/illustration/gul.png" class="img-flui" style="background-color: #40534C;" alt="" height="230">
+                <div class="d-lg-flex af rounded-1" style="gap: 120px;">
+                  <div >
+                    <h6 class="text-danger fw-bold p-lg-2 fs-4 " >Gulabjamun <i class="fa-solid fa-heart color-danger fs-3 mx-2"></i><i class="fa-regular fa-comment fs-3"></i></h6>
+                  </div>
+                   
+                </div>
+              </div>
+              
+              <div class="item">
+                <img src="../assets/Images/illustration/Dessert-PNG-Photo.png" class="img-flui" alt="" height="230" style="background-color: #F3FEB8;">
+                <div class="d-lg-flex af rounded-1" style="gap: 120px;">
+                  <div >
+                    <h6 class="text-danger fw-bold p-lg-2 fs-4 mx-4">Desert <i class="fa-solid fa-heart color-danger fs-3 mx-4 " ></i><i class="fa-regular fa-comment fs-3"></i></h6>
+                  </div>
+                   
+                </div>
+              </div>
+        
+              <div class="item">
+                <div class="">
+                  <img src="../assets/Images/illustration/ab.jpg" alt="" class="img-flui" height="230">
+                  <div class="d-lg-flex af rounded-1" style="gap: 60px;">
+                    <div >
+                      <h6 class="text-danger fw-bold p-lg-2 fs-4">Custured <i class="fa-solid fa-heart color-danger fs-3 mx-3"></i><i class="fa-regular fa-comment fs-3"></i></h6>
+                    </div>
+                   
+                  </div>
+                </div> 
+              </div>
+        
+              <div class="item">
+                <img src="../assets/Images/illustration/gul.png" class="img-flui" style="background-color: #40534C;"     alt="" height="230">
+                <div class="d-lg-flex af rounded-1" style="gap: 120px;">
+                  <div >
+                    <h6 class="text-danger fw-bold p-lg-2 fs-4 " >Gulabjamun <i class="fa-solid fa-heart color-danger fs-3 mx-2"></i><i class="fa-regular fa-comment fs-3"></i></h6>
+                  </div>
+                   
+                </div>
+              </div>
+        
+        
+               </div>
+               
+        
+               
+               
+               
+              
+           </div>
+          </center>
+           </div>
+           </div>
+        </section>
+
+ -->
+
+ <section class="sweetd" id="sweetdish">
+  <div class="container mt-lg-5">
+      <div class="row mt-lg-5">
+          <hr class="text-primary pit ">
+
+          <div class="accordion accordion-flush mt-lg-5" id="accordionFlushExample" >
+              <div class="accordion-item mt-lg-5">
+                <h2 class="accordion-header mt-lg-5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                     <div class="d-lg-flex  par">
+                      <div class="col-lg-5">
+                          <h3 class="text-primary fw-bold">01</h3>
+                      </div>
+                      <div class="col-lg-8">
+                          <h2 class="fw-bold display-6">coconut oil</h2>
+                      </div>
+
+                      <div class="col-8">
+                          
+                      </div>
+
+                      <div class="col-lg-8 ">
+                        <button value="Send" class="rounded-0 mt-3 btn btn-outline-warning col-lg-9 mb-5">
+                          <span class=""  ><i class="fa-solid fa-cart-shopping mx-lg-3 "></i>ADD TO CART</span></button>
+                      </div>
+                     </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> 
+
+<div class="d-lg-flex ">
+  <div class="col-lg-4">
+      <img class="img-fluid"    src="../assets/Images/illustration/gul.png" alt="">
+  </div>
+ <div class=" para1 col-lg-8 w-75 ">
+  <p>Contains fatty acids - MCT medium chain triglycerides. Provides fast but long-lasting energy and is easily absorbed by the body. And they also help breakdown and excretion from the body, is this not a dream?!</p>
+
+  <div class="d-lg-flex">
+      <div class="col-lg-6 p-5">
+          <h4 class="va">VITAMIN-C</h4>
+          <h4 class="va">VITAMIN-A</h4>
+      </div>
+  
+  
+      <div class="col-lg-4 p-5">
+          <h4 class="vc">VITAMIN-E</h4>
+          <h4 class="vc">OILS</h4>
+      </div>
+  </div>
+ </div>
+</div>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <div class="d-lg-flex  par">
+                          <div class="col-lg-5">
+                              <h3 class="text-primary fw-bold">02</h3>
+                          </div>
+                          <div class="col-lg-8">
+                              <h2 class="fw-bold display-6">coconut oil</h2>
+                          </div>
+  
+                          <div class="col-8">
+                              
+                          </div>
+  
+                          <div class="col-lg-8 ">
+                              <span class="text-secondary fw-bold">source of <br> healty acid</span>
+                          </div>
+                         </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                      <div class="d-lg-flex ">
+                          <div class="col-lg-4">
+                              <img class="img-fluid"    src="../assets/Images/illustration/gul.png" alt="">
+                          </div>
+                         <div class=" para1 col-lg-8 w-75 ">
+                          <p>Contains fatty acids - MCT medium chain triglycerides. Provides fast but long-lasting energy and is easily absorbed by the body. And they also help breakdown and excretion from the body, is this not a dream?!</p>
+                      
+                          <div class="d-lg-flex">
+                              <div class="col-lg-6 p-5">
+                                  <h4 class="va">VITAMIN-C</h4>
+                                  <h4 class="va">VITAMIN-A</h4>
+                              </div>
+                          
+                          
+                              <div class="col-lg-4 p-5">
+                                  <h4 class="vc">VITAMIN-E</h4>
+                                  <h4 class="vc">OILS</h4>
+                              </div>
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <div class="d-lg-flex  par">
+                          <div class="col-lg-5">
+                              <h3 class="text-primary fw-bold">03</h3>
+                          </div>
+                          <div class="col-lg-8">
+                              <h2 class="fw-bold display-6">coconut oil</h2>
+                          </div>
+  
+                          <div class="col-8">
+                              
+                          </div>
+  
+                          <div class="col-lg-8 ">
+                              <span class="text-secondary fw-bold">source of <br> healty acid</span>
+                          </div>
+                         </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+
+                      <div class="d-lg-flex ">
+                          <div class="col-lg-4">
+                              <img class="img-fluid"    src="../assets/Images/illustration/gul.png" alt="">
+                          </div>
+                         <div class=" para1 col-lg-8 w-75 ">
+                          <p>Contains fatty acids - MCT medium chain triglycerides. Provides fast but long-lasting energy and is easily absorbed by the body. And they also help breakdown and excretion from the body, is this not a dream?!</p>
+                      
+                          <div class="d-lg-flex">
+                              <div class="col-lg-6 p-5 va ">
+                                  <h4 class="va">VITAMIN-C</h4>
+                                  <h4 class="va">VITAMIN-A</h4>
+                              </div>
+                          
+                          
+                              <div class="col-lg-4 p-5">
+                                  <h4 class="vc">VITAMIN-E</h4>
+                                  <h4 class="vc">OILS</h4>
+                              </div>
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+         
+      </div>
+  </div>
+</section>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="news-slider" class="owl-carousel">
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=503" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1564979268369-42032c5ca998?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=500" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1576659531892-0f4991fca82b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1586083702768-190ae093d34d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=305&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=505" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1484656551321-a1161420a2a0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=306&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=506" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Js/owl.carousel.min.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script>
+
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:false,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:5
+              }
+          }
+      })
+      </script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
+
+
+    
+    
+    
+    
